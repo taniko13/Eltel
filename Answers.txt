@@ -1,0 +1,5 @@
+Answers:
+
+1. I'll draw the id's of selected entities on n last locations, and then draw a between coordinates of each entity.
+
+2. I can still use the swing java directory which supports 3d.
