@@ -1,5 +1,7 @@
 Answers:
 
-1. I'll draw the id's of selected entities on n last locations, and then draw a between coordinates of each entity.
+1. I'll draw the id's of selected entities on n last locations, and then draw a line between ids (coordinates) of each entity.
+	And choose a specific color for each entity.
 
-2. I can still use the swing java directory which supports 3d.
+2. We can display this in 3D, java swing directery support 3D.
+	 Or j3d, the extension to Java for displaying three dimensional graphics.
