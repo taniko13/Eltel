@@ -87,8 +87,16 @@ public class Eltel_GUI {
 		btnStart.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String shapeAmount = JOptionPane.showInputDialog(null,
-		        "How many shapes?", "Random Shapes...", JOptionPane.PLAIN_MESSAGE);
-				amount = Integer.parseInt(shapeAmount);
+		        "How many locations to save?", "Save locations", JOptionPane.PLAIN_MESSAGE);
+				if(shapeAmount != null) {
+					try {
+						amount = Integer.parseInt(shapeAmount);
+					}
+					catch (NumberFormatException ex) {
+						System.out.println(ex.getMessage());
+						amount = 0;
+					}
+				}
 				timer.start();
 			}
 		});
